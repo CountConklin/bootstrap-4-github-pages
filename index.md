@@ -10,4 +10,4 @@ Some not so confidential stuff in a really simple not amazing looking index file
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfP1T__fdvB9YihXK-fCqtLzKa-i_79t-ltYKf_0eAhVBDD7g/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-
+<iframe src="https://discordapp.com/widget?id=442342752311836672&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
