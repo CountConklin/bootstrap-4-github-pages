@@ -2,15 +2,12 @@
 layout: page
 title: Madness
 ---
+Some not so confidential stuff
 
-A [Tree of Life](https://countconklin.github.io/walls/treeOfLife/) 
-[Duchy Info](https://pages.github.com/) and 
-[etc](https://jekyllrb.com/).
+* [Tree of Life](https://countconklin.github.io/walls/treeOfLife/) 
+* [Duchy Info](https://pages.github.com/) and 
+* [etc](https://jekyllrb.com/).
 
-* A full Bootstrap 4 theme usable both on Github Pages and with a standalone Jekyll.
-* Recompiles Bootstrap from SCSS files, which allows to customize Bootstrap's variables and use Bootstrap themes.
-* Full support of Bootstrap's JavaScript plugins.
-* Supports all features of Github Pages and Jekyll.
 
 ## Setup Guide
 
