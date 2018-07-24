@@ -1,0 +1,10 @@
+<div>
+  <h2 class="discord-button" [ngClass]="{'animation-slide-up': toggleDiscord_SlideUp, 'animation-slide-down': toggleDiscord_SlideDown, 'closed': !toggleDiscord}" (click)="onClickToggleDiscord()">
+    Official Discord
+  <mat-icon *ngIf="!toggleDiscord">keyboard_arrow_up</mat-icon>
+  <mat-icon *ngIf="toggleDiscord">keyboard_arrow_down</mat-icon>
+  </h2>
+  <iframe [ngClass]="{'animation-slide-up': toggleDiscord_SlideUp, 'animation-slide-down': toggleDiscord_SlideDown, 'closed': !toggleDiscord}" src="https://discordapp.com/widget?id=442342752311836672&theme=dark" width="350" height="500" allowtransparency="true"
+    frameborder="0"></iframe>
+
+</div>

@@ -1,0 +1,104 @@
+@import 'src/theme.scss';
+
+.footer-main {
+  margin-top: 27px;
+  padding: 15px 15px 20px;
+  background: rgba(#1b1b1b, 0.2);
+  font-size: 1rem;
+
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.footer-content {
+  color: #6e6e6e;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  padding: 7px 0;
+  margin: 0;
+
+  &.header {
+    padding: 7px;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  &.links {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #6e6e6e;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #B5B5B5;
+  }
+}
+
+.footer-section {
+  flex: 1 1;
+  text-align: center;
+}
+
+.footer-post {
+  text-align: left;
+  padding: 1rem;
+  color: #6e6e6e;
+  padding-bottom: 0;
+  margin-top: 10px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.icons {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background-color: $background-secondary;
+  border: none;
+  line-height: 50%;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+
+  svg {
+    width: 80%;
+    height: 80%;
+    fill: #6e6e6e;
+  }
+
+  &.facebook:hover {
+    background-color: #4267B2;
+
+    svg {
+      fill: white;
+    }
+  }
+
+  &.twitter:hover {
+    background-color: #1DA1F2;
+
+    svg {
+      fill: white;
+    }
+  }
+
+  &.patreon:hover {
+    background-color: #FA7664;
+
+    svg {
+      fill: white;
+    }
+  }
+}

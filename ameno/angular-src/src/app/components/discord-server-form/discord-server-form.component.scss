@@ -1,0 +1,64 @@
+@import 'src/theme.scss';
+
+iframe {
+  position: relative;
+}
+
+.discord-button {
+  position: relative;
+  cursor: pointer;
+  color: #FFFFFF;
+  padding: 5px 15px 2px 15px;
+  float: right;
+  background-color: #7289da;
+  margin: 0 25px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 1.1rem;
+
+  .mat-icon {
+    float: right;
+    top: -15px;
+    font-size: 1.4rem;
+  }
+
+  &:hover {
+    color: #B5B5B5;
+  }
+}
+
+.closed {
+  top: 0px;
+}
+
+.animation-slide-up {
+  top: -504px;
+  animation-name: animation-slide-out;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+.animation-slide-down {
+  top: 0px;
+  animation-name: animation-slide-in;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+@keyframes animation-slide-out {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: -504px;
+  }
+}
+@keyframes animation-slide-in {
+  0% {
+    top: -504px;
+  }
+
+  100% {
+    top: 0;
+  }
+}

@@ -1,0 +1,31 @@
+@import 'src/theme.scss';
+
+html, body{
+    margin:0px;
+    padding:0px;
+    background-color: $background-secondary;    
+}
+
+*:focus {
+    outline: none !important;
+}
+
+* {
+  font-family: monospace;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

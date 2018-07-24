@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let NewsCard of NewsList">
+      <mat-card class="news-card">
+        <mat-card-header>
+          <div mat-card-avatar class="news-card-header">
+            <img src="{{NewsCard.avatarUrl}}" class="news-card-image">
+          </div>
+          <mat-card-title>{{NewsCard.user}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="{{NewsCard.image}}">
+        <mat-card-content>
+          <p>{{NewsCard.content}}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>
