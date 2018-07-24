@@ -1,0 +1,11 @@
+{
+  "Prefix": "!",
+  "Port": "80",
+  "Domain": "",
+  "Dev": "",
+  "BotID": "",
+  "BotToken": "",
+  "NewsChannelID": "",
+  "NewMembersChannelID": "",
+  "AllowedRolesID": ["", ""]
+}
